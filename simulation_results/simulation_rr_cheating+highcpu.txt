@@ -1,0 +1,24 @@
+
+=================================================================================================================
+                                       RELATÓRIO DE DESEMPENHO DO ESCALONADOR                                    
+=================================================================================================================
+Data/Hora da Simulação:     2026-10-03 19:14:23
+Algoritmo de Escalonamento: RR
+Cenário/Entradas Usadas:    Cheating+HighCPU
+Tempo Total Simulado:       25832 ms | Total de Tarefas Processadas: 1
+
+PID   | Chegada    | 1a Exec    | Fim        | CPU Time   | Turnaround | Response T. | Wait Time  | CPU/Turn % | Context Sw.
+------+------------+------------+------------+------------+------------+------------+------------+------------+------------
+2242  |   16486 ms |   16486 ms |   22788 ms |       0 ms |    6302 ms |       0 ms |    6302 ms |      0.0 % |          6
+=================================================================================================================
+                                       ESTATÍSTICAS GERAIS                                                       
+=================================================================================================================
+ * Tempo Médio de Execução (Turnaround Time):  6302.00 ms
+ * Tempo Médio de Resposta (Response Time):       0.00 ms
+ * Tempo Médio de Espera (Waiting Time):       6302.00 ms
+ * Eficiência Média da Tarefa (CPU/Turnaround):     0.00 %
+ * Média de Trocas de Contexto por Tarefa:        6.00
+ * Taxa de Utilização da CPU:                     0.00 %
+ * Vazão do Sistema (Throughput):                 0.04 tarefas/segundo
+=================================================================================================================
+

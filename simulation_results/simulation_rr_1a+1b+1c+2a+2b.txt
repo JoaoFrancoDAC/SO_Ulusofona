@@ -1,0 +1,28 @@
+
+=================================================================================================================
+                                       RELATÓRIO DE DESEMPENHO DO ESCALONADOR                                    
+=================================================================================================================
+Data/Hora da Simulação:     2026-09-28 18:10:29
+Algoritmo de Escalonamento: RR
+Cenário/Entradas Usadas:    1A+1B+1C+2A+2B
+Tempo Total Simulado:       65790 ms | Total de Tarefas Processadas: 5
+
+PID   | Chegada    | 1a Exec    | Fim        | CPU Time   | Turnaround | Response T. | Wait Time  | CPU/Turn % | Context Sw.
+------+------------+------------+------------+------------+------------+------------+------------+------------+------------
+1052  |    3898 ms |    7903 ms |   33152 ms |    5000 ms |   29254 ms |    4005 ms |   24254 ms |     17.1 % |          6
+1053  |    3898 ms |    3898 ms |   49509 ms |   10000 ms |   45611 ms |       0 ms |   35611 ms |     21.9 % |         11
+1049  |    3898 ms |    4898 ms |   49757 ms |   10000 ms |   45859 ms |    1000 ms |   35859 ms |     21.8 % |         11
+1050  |    3898 ms |    5899 ms |   60185 ms |   15000 ms |   56287 ms |    2001 ms |   41287 ms |     26.6 % |         16
+1051  |    3898 ms |    6903 ms |   65789 ms |   20000 ms |   61891 ms |    3005 ms |   41891 ms |     32.3 % |         16
+=================================================================================================================
+                                       ESTATÍSTICAS GERAIS                                                       
+=================================================================================================================
+ * Tempo Médio de Execução (Turnaround Time): 47780.40 ms
+ * Tempo Médio de Resposta (Response Time):    2002.20 ms
+ * Tempo Médio de Espera (Waiting Time):      35780.40 ms
+ * Eficiência Média da Tarefa (CPU/Turnaround):    25.11 %
+ * Média de Trocas de Contexto por Tarefa:       12.00
+ * Taxa de Utilização da CPU:                    91.20 %
+ * Vazão do Sistema (Throughput):                 0.08 tarefas/segundo
+=================================================================================================================
+

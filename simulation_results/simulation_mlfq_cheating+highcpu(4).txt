@@ -1,0 +1,27 @@
+
+=================================================================================================================
+                                       RELATÓRIO DE DESEMPENHO DO ESCALONADOR                                    
+=================================================================================================================
+Data/Hora da Simulação:     2026-10-02 19:34:32
+Algoritmo de Escalonamento: MLFQ
+Cenário/Entradas Usadas:    Cheating+HighCPU
+Tempo Total Simulado:       3892 ms | Total de Tarefas Processadas: 4
+
+PID   | Chegada    | 1a Exec    | Fim        | CPU Time   | Turnaround | Response T. | Wait Time  | CPU/Turn % | Context Sw.
+------+------------+------------+------------+------------+------------+------------+------------+------------+------------
+1525  |     233 ms |     233 ms |    1145 ms |     900 ms |     912 ms |       0 ms |      12 ms |     98.7 % |          1
+1527  |     537 ms |    1145 ms |    2066 ms |     900 ms |    1529 ms |     608 ms |     629 ms |     58.9 % |          1
+1529  |     840 ms |    2066 ms |    2980 ms |     900 ms |    2140 ms |    1226 ms |    1240 ms |     42.1 % |          1
+1531  |    1145 ms |    2980 ms |    3892 ms |     900 ms |    2747 ms |    1835 ms |    1847 ms |     32.8 % |          1
+=================================================================================================================
+                                       ESTATÍSTICAS GERAIS                                                       
+=================================================================================================================
+ * Tempo Médio de Execução (Turnaround Time):  1832.00 ms
+ * Tempo Médio de Resposta (Response Time):     917.25 ms
+ * Tempo Médio de Espera (Waiting Time):        932.00 ms
+ * Eficiência Média da Tarefa (CPU/Turnaround):    49.13 %
+ * Média de Trocas de Contexto por Tarefa:        1.00
+ * Taxa de Utilização da CPU:                    92.50 %
+ * Vazão do Sistema (Throughput):                 1.03 tarefas/segundo
+=================================================================================================================
+

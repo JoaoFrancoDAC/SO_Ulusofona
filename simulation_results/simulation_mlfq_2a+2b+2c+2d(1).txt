@@ -1,0 +1,30 @@
+
+=================================================================================================================
+                                       RELATÓRIO DE DESEMPENHO DO ESCALONADOR                                    
+=================================================================================================================
+Data/Hora da Simulação:     2026-10-01 19:59:40
+Algoritmo de Escalonamento: MLFQ
+Cenário/Entradas Usadas:    2A+2B+2C+2D
+Tempo Total Simulado:       42373 ms | Total de Tarefas Processadas: 7
+
+PID   | Chegada    | 1a Exec    | Fim        | CPU Time   | Turnaround | Response T. | Wait Time  | CPU/Turn % | Context Sw.
+------+------------+------------+------------+------------+------------+------------+------------+------------+------------
+1287  |    2455 ms |    4486 ms |    4790 ms |     300 ms |    2335 ms |    2031 ms |    2035 ms |     12.8 % |          1
+1284  |    2455 ms |    2455 ms |   10072 ms |    2000 ms |    7617 ms |       0 ms |    5617 ms |     26.3 % |          2
+1285  |    2455 ms |    8041 ms |   21170 ms |    3000 ms |   18715 ms |    5586 ms |   15715 ms |     16.0 % |          3
+1283  |    2455 ms |    6010 ms |   24214 ms |    4000 ms |   21759 ms |    3555 ms |   17759 ms |     18.4 % |          4
+1281  |    2455 ms |    3471 ms |   27051 ms |    5000 ms |   24596 ms |    1016 ms |   19596 ms |     20.3 % |          5
+1282  |    2455 ms |    4790 ms |   35998 ms |   10000 ms |   33543 ms |    2335 ms |   23543 ms |     29.8 % |          8
+1286  |    2455 ms |    7027 ms |   42373 ms |   15000 ms |   39918 ms |    4572 ms |   24918 ms |     37.6 % |         13
+=================================================================================================================
+                                       ESTATÍSTICAS GERAIS                                                       
+=================================================================================================================
+ * Tempo Médio de Execução (Turnaround Time): 21211.86 ms
+ * Tempo Médio de Resposta (Response Time):    2727.86 ms
+ * Tempo Médio de Espera (Waiting Time):      15597.57 ms
+ * Eficiência Média da Tarefa (CPU/Turnaround):    26.47 %
+ * Média de Trocas de Contexto por Tarefa:        5.14
+ * Taxa de Utilização da CPU:                    92.75 %
+ * Vazão do Sistema (Throughput):                 0.17 tarefas/segundo
+=================================================================================================================
+

@@ -1,0 +1,26 @@
+
+=================================================================================================================
+                                       RELATÓRIO DE DESEMPENHO DO ESCALONADOR                                    
+=================================================================================================================
+Data/Hora da Simulação:     2026-10-03 20:46:18
+Algoritmo de Escalonamento: SJF
+Cenário/Entradas Usadas:    Cheating+HighCPU
+Tempo Total Simulado:       37007 ms | Total de Tarefas Processadas: 3
+
+PID   | Chegada    | 1a Exec    | Fim        | CPU Time   | Turnaround | Response T. | Wait Time  | CPU/Turn % | Context Sw.
+------+------------+------------+------------+------------+------------+------------+------------+------------+------------
+2438  |    3657 ms |    3871 ms |   18605 ms |   12000 ms |   14948 ms |     214 ms |    2948 ms |     80.3 % |          2
+2440  |    3963 ms |   10173 ms |   26751 ms |    8000 ms |   22788 ms |    6210 ms |   14788 ms |     35.1 % |          4
+2437  |    3657 ms |    3668 ms |   33963 ms |    1200 ms |   30306 ms |      11 ms |   29106 ms |      4.0 % |          6
+=================================================================================================================
+                                       ESTATÍSTICAS GERAIS                                                       
+=================================================================================================================
+ * Tempo Médio de Execução (Turnaround Time): 22680.67 ms
+ * Tempo Médio de Resposta (Response Time):    2145.00 ms
+ * Tempo Médio de Espera (Waiting Time):      15614.00 ms
+ * Eficiência Média da Tarefa (CPU/Turnaround):    31.16 %
+ * Média de Trocas de Contexto por Tarefa:        4.00
+ * Taxa de Utilização da CPU:                    57.29 %
+ * Vazão do Sistema (Throughput):                 0.08 tarefas/segundo
+=================================================================================================================
+

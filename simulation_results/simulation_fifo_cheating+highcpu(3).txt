@@ -1,0 +1,26 @@
+
+=================================================================================================================
+                                       RELATÓRIO DE DESEMPENHO DO ESCALONADOR                                    
+=================================================================================================================
+Data/Hora da Simulação:     2026-10-03 20:09:44
+Algoritmo de Escalonamento: FIFO
+Cenário/Entradas Usadas:    Cheating+HighCPU
+Tempo Total Simulado:       39072 ms | Total de Tarefas Processadas: 3
+
+PID   | Chegada    | 1a Exec    | Fim        | CPU Time   | Turnaround | Response T. | Wait Time  | CPU/Turn % | Context Sw.
+------+------------+------------+------------+------------+------------+------------+------------+------------+------------
+2414  |    3196 ms |    3409 ms |   18129 ms |   12000 ms |   14933 ms |     213 ms |    2933 ms |     80.4 % |          2
+2416  |    3490 ms |    9501 ms |   26067 ms |    8000 ms |   22577 ms |    6011 ms |   14577 ms |     35.4 % |          4
+2413  |    3196 ms |    3206 ms |   36022 ms |    1200 ms |   32826 ms |      10 ms |   31626 ms |      3.7 % |          6
+=================================================================================================================
+                                       ESTATÍSTICAS GERAIS                                                       
+=================================================================================================================
+ * Tempo Médio de Execução (Turnaround Time): 23445.33 ms
+ * Tempo Médio de Resposta (Response Time):    2078.00 ms
+ * Tempo Médio de Espera (Waiting Time):      16378.67 ms
+ * Eficiência Média da Tarefa (CPU/Turnaround):    30.14 %
+ * Média de Trocas de Contexto por Tarefa:        4.00
+ * Taxa de Utilização da CPU:                    54.26 %
+ * Vazão do Sistema (Throughput):                 0.08 tarefas/segundo
+=================================================================================================================
+

@@ -1,0 +1,25 @@
+
+=================================================================================================================
+                                       RELATÓRIO DE DESEMPENHO DO ESCALONADOR                                    
+=================================================================================================================
+Data/Hora da Simulação:     2026-10-03 22:32:04
+Algoritmo de Escalonamento: FIFO
+Cenário/Entradas Usadas:    CPUBOUND+IOintenso
+Tempo Total Simulado:       55644 ms | Total de Tarefas Processadas: 2
+
+PID   | Chegada    | 1a Exec    | Fim        | CPU Time   | Turnaround | Response T. | Wait Time  | CPU/Turn % | Context Sw.
+------+------------+------------+------------+------------+------------+------------+------------+------------+------------
+2757  |    3286 ms |    3297 ms |   29869 ms |   24000 ms |   26583 ms |      11 ms |    2583 ms |     90.3 % |          3
+2758  |    3286 ms |   11437 ms |   52594 ms |   24000 ms |   49308 ms |    8151 ms |   25308 ms |     48.7 % |         24
+=================================================================================================================
+                                       ESTATÍSTICAS GERAIS                                                       
+=================================================================================================================
+ * Tempo Médio de Execução (Turnaround Time): 37945.50 ms
+ * Tempo Médio de Resposta (Response Time):    4081.00 ms
+ * Tempo Médio de Espera (Waiting Time):      13945.50 ms
+ * Eficiência Média da Tarefa (CPU/Turnaround):    63.25 %
+ * Média de Trocas de Contexto por Tarefa:       13.50
+ * Taxa de Utilização da CPU:                    86.26 %
+ * Vazão do Sistema (Throughput):                 0.04 tarefas/segundo
+=================================================================================================================
+

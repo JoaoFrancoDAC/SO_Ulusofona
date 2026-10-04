@@ -1,0 +1,27 @@
+
+=================================================================================================================
+                                       RELATÓRIO DE DESEMPENHO DO ESCALONADOR                                    
+=================================================================================================================
+Data/Hora da Simulação:     2026-09-27 22:13:15
+Algoritmo de Escalonamento: MLFQ
+Cenário/Entradas Usadas:    1A+1B+1C+1D
+Tempo Total Simulado:       55612 ms | Total de Tarefas Processadas: 4
+
+PID   | Chegada    | 1a Exec    | Fim        | CPU Time   | Turnaround | Response T. | Wait Time  | CPU/Turn % | Context Sw.
+------+------------+------------+------------+------------+------------+------------+------------+------------+------------
+1028  |    4842 ms |    8036 ms |   29080 ms |    5000 ms |   24238 ms |    3194 ms |   19238 ms |     20.6 % |          5
+1025  |    4842 ms |    4842 ms |   30238 ms |   10000 ms |   25396 ms |       0 ms |   15396 ms |     39.4 % |          6
+1026  |    4842 ms |    7022 ms |   54089 ms |   15000 ms |   49247 ms |    2180 ms |   34247 ms |     30.5 % |         15
+1027  |    4842 ms |    6009 ms |   55612 ms |   20000 ms |   50770 ms |    1167 ms |   30770 ms |     39.4 % |         16
+=================================================================================================================
+                                       ESTATÍSTICAS GERAIS                                                       
+=================================================================================================================
+ * Tempo Médio de Execução (Turnaround Time): 37412.75 ms
+ * Tempo Médio de Resposta (Response Time):    1635.25 ms
+ * Tempo Médio de Espera (Waiting Time):      24912.75 ms
+ * Eficiência Média da Tarefa (CPU/Turnaround):    33.41 %
+ * Média de Trocas de Contexto por Tarefa:       10.50
+ * Taxa de Utilização da CPU:                    89.91 %
+ * Vazão do Sistema (Throughput):                 0.07 tarefas/segundo
+=================================================================================================================
+

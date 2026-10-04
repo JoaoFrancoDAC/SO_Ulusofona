@@ -1,0 +1,25 @@
+
+=================================================================================================================
+                                       RELATÓRIO DE DESEMPENHO DO ESCALONADOR                                    
+=================================================================================================================
+Data/Hora da Simulação:     2026-10-03 22:36:40
+Algoritmo de Escalonamento: RR
+Cenário/Entradas Usadas:    CPUBOUND+IOintenso
+Tempo Total Simulado:       55621 ms | Total de Tarefas Processadas: 2
+
+PID   | Chegada    | 1a Exec    | Fim        | CPU Time   | Turnaround | Response T. | Wait Time  | CPU/Turn % | Context Sw.
+------+------------+------------+------------+------------+------------+------------+------------+------------+------------
+2801  |    3712 ms |    3722 ms |   51858 ms |   24000 ms |   48146 ms |      10 ms |   24146 ms |     49.8 % |        117
+2802  |    3712 ms |    3936 ms |   52572 ms |   24000 ms |   48860 ms |     224 ms |   24860 ms |     49.1 % |        117
+=================================================================================================================
+                                       ESTATÍSTICAS GERAIS                                                       
+=================================================================================================================
+ * Tempo Médio de Execução (Turnaround Time): 48503.00 ms
+ * Tempo Médio de Resposta (Response Time):     117.00 ms
+ * Tempo Médio de Espera (Waiting Time):      24503.00 ms
+ * Eficiência Média da Tarefa (CPU/Turnaround):    49.48 %
+ * Média de Trocas de Contexto por Tarefa:      117.00
+ * Taxa de Utilização da CPU:                    86.30 %
+ * Vazão do Sistema (Throughput):                 0.04 tarefas/segundo
+=================================================================================================================
+

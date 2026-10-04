@@ -1,0 +1,24 @@
+
+=================================================================================================================
+                                       RELATÓRIO DE DESEMPENHO DO ESCALONADOR                                    
+=================================================================================================================
+Data/Hora da Simulação:     2026-10-03 09:41:11
+Algoritmo de Escalonamento: MLFQ
+Cenário/Entradas Usadas:    Cheating+HighCPU
+Tempo Total Simulado:       26039 ms | Total de Tarefas Processadas: 1
+
+PID   | Chegada    | 1a Exec    | Fim        | CPU Time   | Turnaround | Response T. | Wait Time  | CPU/Turn % | Context Sw.
+------+------------+------------+------------+------------+------------+------------+------------+------------+------------
+2200  |   16706 ms |   16706 ms |   22998 ms |       0 ms |    6292 ms |       0 ms |    6292 ms |      0.0 % |          6
+=================================================================================================================
+                                       ESTATÍSTICAS GERAIS                                                       
+=================================================================================================================
+ * Tempo Médio de Execução (Turnaround Time):  6292.00 ms
+ * Tempo Médio de Resposta (Response Time):       0.00 ms
+ * Tempo Médio de Espera (Waiting Time):       6292.00 ms
+ * Eficiência Média da Tarefa (CPU/Turnaround):     0.00 %
+ * Média de Trocas de Contexto por Tarefa:        6.00
+ * Taxa de Utilização da CPU:                     0.00 %
+ * Vazão do Sistema (Throughput):                 0.04 tarefas/segundo
+=================================================================================================================
+
